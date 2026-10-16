@@ -50,4 +50,4 @@ One problem (pass the test file, not the folder):
 node --test 01-hash-map-and-counting/longest-consecutive-sequence/longestConsecutive.test.js
 ```
 
-Format with `npm run format`.
+Format with `npm run format`. A husky pre-commit hook also runs Prettier on staged files.
