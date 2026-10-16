@@ -5,7 +5,7 @@
  * the target. Exactly one solution exists, and the same element can't be used twice. The indices
  * can be returned in any order.
  */
-export function twoSum(nums: number[], target: number): [number, number] | undefined {
+export function twoSum(nums: number[], target: number): [number, number] {
   const lookupMap: Map<number, number> = new Map();
 
   for (let i = 0; i < nums.length; i++) {
@@ -19,4 +19,6 @@ export function twoSum(nums: number[], target: number): [number, number] | undef
       return [i, complementIndex];
     }
   }
+
+  return [0, 0];
 }
