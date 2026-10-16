@@ -1,8 +1,8 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { twoSum } from './twoSum.js';
+import { twoSum } from './twoSum.ts';
 
-const sorted = (pair) => [...pair].sort((a, b) => a - b);
+const sorted = (pair: number[]): number[] => [...pair].sort((a, b) => a - b);
 
 describe('twoSum', () => {
   it('finds a pair at the start', () => {

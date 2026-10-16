@@ -1,8 +1,8 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { groupAnagrams } from './groupAnagrams.js';
+import { groupAnagrams } from './groupAnagrams.ts';
 
-const normalise = (groups) =>
+const normalise = (groups: string[][]): string[][] =>
   groups.map((group) => [...group].sort()).sort((a, b) => a.join().localeCompare(b.join()));
 
 describe('groupAnagrams', () => {

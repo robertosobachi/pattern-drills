@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { longestConsecutive } from './longestConsecutive.js';
+import { longestConsecutive } from './longestConsecutive.ts';
 
 describe('longestConsecutive', () => {
   it('finds a run scattered through the array', () => {

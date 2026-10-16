@@ -10,7 +10,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{js,json,md,yml,yaml}": [
+    "*.{js,ts,json,md,yml,yaml}": [
       "prettier --write"
     ]
   },
