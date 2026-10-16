@@ -20,5 +20,5 @@ export function twoSum(nums: number[], target: number): [number, number] {
     }
   }
 
-  return [0, 0];
+  throw new Error(`No two numbers add up to ${target}`);
 }
