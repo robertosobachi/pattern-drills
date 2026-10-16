@@ -23,3 +23,5 @@ integers.
 | `[1,2,2,3]`             | `3`    | duplicate `2` counts once |
 | `[-2,-1,0,1]`           | `4`    | negatives work the same   |
 | `[1,2,3,10]`            | `3`    | `10` is its own run       |
+
+Log: transfer, 2026-10-16, redo.
